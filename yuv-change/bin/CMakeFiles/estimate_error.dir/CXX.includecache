@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/error.h
+iostream
+-
+fstream
+-
+string
+-
+cmath
+-
+vector
+-
+sstream
+-
+
+/home/admins/workspace/estimate/src/error.cpp
+error.h
+-
+

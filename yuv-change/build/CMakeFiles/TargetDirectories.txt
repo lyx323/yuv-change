@@ -1,0 +1,2 @@
+/home/admins/workspace/estimate/build/CMakeFiles/estimate_error.dir
+/home/admins/workspace/estimate/build/CMakeFiles/yuv.dir

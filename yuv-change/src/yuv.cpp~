@@ -1,0 +1,23 @@
+#include "opencv2/opencv.hpp"
+#include "opencv2/core/core.hpp"
+#include "opencv2/highgui/highgui.hpp"
+#include <iostream>
+using namespace std;
+
+#define nWidth 448
+#define nHeight 336
+#define FrameSize nWidth*nHeight*3/2
+
+int main()
+{
+    FILE *f ;
+    if(!(f = fopen("/home/admins/slam_dataset/yuv/1358499015095904.yuv","rb")))
+    {
+        cout << "file open error!" << endl;
+    }
+
+    // 计算帧数
+    fseek(f, 0, SEEK_END);
+
+    return 0;
+}
